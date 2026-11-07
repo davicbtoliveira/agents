@@ -66,8 +66,10 @@ Strong criteria let you loop on your own. Weak criteria ("make it work") need co
 
 ## 7. Subagents
 
-Pick the subagent model and effort by task type:
+Delegate these tasks to a subagent. Do not do them in the main session.
 
-- Plan implementation and code review → `model: sonnet`, `effort: medium`.
-- Documentation writing and trivial tasks with no coding, review, or architecture → `model: haiku`, `effort: medium`.
-- Everything else → the default model.
+- When I tell you to implement a plan, give the implementation to an `Agent` with `model: sonnet`, `effort: medium`.
+- When I ask for a code review, give the review to an `Agent` with `model: sonnet`, `effort: medium`.
+- When I ask for documentation, or for a trivial task with no coding, review, or architecture, give it to an `Agent` with `model: haiku`, `effort: medium`.
+
+The main session keeps the planning, the decisions, and the check of the subagent's result.
