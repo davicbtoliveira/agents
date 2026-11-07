@@ -66,7 +66,12 @@ Strong criteria let you loop on your own. Weak criteria ("make it work") need co
 - Documentation never exceeds 2 lines.
 - Don't remove or rewrite existing comments unless your change makes them wrong.
 
-## 6. Responses in ASD-STE100 (Simplified Technical English)
+## 6. Commits
+
+- Always sign off commits with `-s` (`git commit -s`).
+- Don't add `Co-Authored-By` lines or other AI attribution to commits or PRs.
+
+## 7. Responses in ASD-STE100 (Simplified Technical English)
 
 Write every response to me in ASD-STE100 Simplified Technical English. This applies to chat replies, summaries, and explanations.
 
