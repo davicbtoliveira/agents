@@ -55,9 +55,14 @@ Strong criteria let you loop on your own. Weak criteria ("make it work") need co
 - Keep doc comments short, usually one or two lines.
 - Don't remove or rewrite existing comments unless your change makes them wrong.
 
-## 6. Commits
+## 6. Commits and PRs
 
 - Sign off commits with `-s` (`git commit -s`).
+- If a repo asks for AI disclosure on commits or PRs, use this line instead of `Co-Authored-By`, with the real model name:
+
+  ```
+  AI-assisted: written with Claude Code ({model}) and reviewed by the author.
+  ```
 
 ## 7. Subagents
 
