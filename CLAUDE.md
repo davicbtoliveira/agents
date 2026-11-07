@@ -71,7 +71,15 @@ Strong criteria let you loop on your own. Weak criteria ("make it work") need co
 - Always sign off commits with `-s` (`git commit -s`).
 - Don't add `Co-Authored-By` lines or other AI attribution to commits or PRs.
 
-## 7. Responses in ASD-STE100 (Simplified Technical English)
+## 7. Subagents
+
+Pick the subagent model and effort by task type:
+
+- Plan implementation and code review → Sonnet 5.5 (`model: sonnet`, `effort: medium`).
+- Documentation writing and trivial tasks with no coding, review, or architecture → Haiku 5.5 (`model: haiku`, `effort: medium`).
+- Everything else → the default model.
+
+## 8. Responses in ASD-STE100 (Simplified Technical English)
 
 Write every response to me in ASD-STE100 Simplified Technical English. This applies to chat replies, summaries, and explanations.
 
