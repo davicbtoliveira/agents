@@ -1,6 +1,7 @@
 {
   "theme": "dark",
   "model": "sonnet",
+  "outputStyle": "STE",
   "enabledPlugins": {
     "mattpocock-skills@synced": false
   },
