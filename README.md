@@ -8,7 +8,7 @@ Personal rules and skills for coding agents.
 - `skills/` — skills in use. Empty for now.
 - `install.sh` — installs the files above into `~/.claude`.
 
-## Backup - AVOID OVERWRITING EXISTING CONFIGS
+## Backup - SETUP OVERWRITES EXISTING CONFIGS
 
 Both setup options below replace `~/.claude/CLAUDE.md`, `~/.claude/settings.json`, and `~/.claude/output-styles`. Copy them first:
 
