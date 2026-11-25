@@ -1,16 +1,24 @@
 {
-  "theme": "dark",
-  "model": "sonnet",
-  "outputStyle": "STE",
-  "enabledPlugins": {
-    "mattpocock-skills@synced": false
-  },
-  "permissions": {
-    "defaultMode": "auto"
-  },
   "attribution": {
     "commit": "",
     "pr": ""
   },
-  "includeCoAuthoredBy": false
+  "includeCoAuthoredBy": false,
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "model": "opus",
+  "enabledPlugins": {
+    "pstack@pstack-claude": true
+  },
+  "extraKnownMarketplaces": {
+    "pstack-claude": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/michael-denyer/pstack-claude.git"
+      }
+    }
+  },
+  "outputStyle": "STE",
+  "theme": "dark"
 }
